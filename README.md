@@ -8,6 +8,8 @@ access to http://localhost:3000/
 ```
 yarn add styled-component
 yarn add react-router-dom
+yarn add --dev prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react husky lint-staged
+[lint参考↑](https://harkerhack.com/vscode-react-eslint-prettier/)
 ```
 
 ## option
