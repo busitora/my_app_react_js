@@ -1,9 +1,10 @@
-.App {
+/* .App {
   font-family: sans-serif;
   text-align: center;
-}
+} */
 
 body {
   margin: 10px;
+  background-color: #e4f9f5;
   /* とりあえず余白欲しくてつけた */
 }
