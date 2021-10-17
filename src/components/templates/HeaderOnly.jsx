@@ -7,7 +7,6 @@ export const HeaderOnly = (props) => {
     <>
       <Header />
       {children}
-      {/* {console.log({children})} */}
     </>
   );
 };
