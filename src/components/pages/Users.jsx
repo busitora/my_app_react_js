@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { useLocation } from 'react-router-dom';
 import { SearchInput } from '../molecules/SearchInput';
 import { UserCard } from '../organisms/user/UserCard';
 
 const users = [...Array(20).keys()].map((val) => {
   return {
     id: val,
-    name: `ブシトラ :${val}人目`,
+    name: `ブシトラ: ${val}人目`,
     image: 'https://source.unsplash.com/E9kVmtiqqGE',
     phone: '090-1234-5678',
     company: {
